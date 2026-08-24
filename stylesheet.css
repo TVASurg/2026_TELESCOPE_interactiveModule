@@ -1,0 +1,43 @@
+@import url(https://fonts.bunny.net/css?family=strichpunkt-sans:400);
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    font-family: Open Sans, sans-serif;
+
+    background-color: #e6e5e5;
+}
+
+.container{
+    background-color: #fff;
+}
+
+.iframe-container {
+    
+    position: relative;
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.iframe-container > iframe {
+    border: 0;
+    height: 720px;
+    width: 100%;
+    flex: 1;
+}
+
+.structureLabel{
+    width: 180px;
+    background-color: dimgray;
+    
+}
+
+.boneStructureLabel{
+    width: 123px;
+    background-color: dimgray;
+    
+}
+
+.titleHeader{
+    font-family: 'Strichpunkt Sans', sans-serif;
+}
